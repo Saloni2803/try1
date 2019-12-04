@@ -3,7 +3,7 @@ class average
 {
 public static void main(String[] args)
 {
-int n,num=0;
+int n,num1=0;
 Scanner s=new Scanner(System.in);
 n=s.nextInt();
 int arr[]=new int[n];
@@ -14,8 +14,8 @@ arr[i]=sc.nextInt();
 }
 for(int i=0;i<n;i++)
 {
-num+=arr[i];
+num1+=arr[i];
 }
-System.out.print("average"+num/n);
+System.out.print("average"+num1/n);
 }
 }
